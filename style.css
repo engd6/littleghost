@@ -1,0 +1,273 @@
+/*Deanna's CSS File For Project 4*/
+
+/* ================================== *//*
+				COLORS
+/* ================================== */ 
+
+/* #000000 Black */
+/* #FFFFFF White */
+/* #DFCBF0 Lavender */
+/* #FFF2F7 Pale Pink */
+/* #FDE7F7 Light Pink */
+
+
+
+/*** GLOBAL STYLING ***/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-color: #FDE7F7; /*light lavender*/
+	font-family: 'Archivo' sans-serif;
+	font-weight: 300;0
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+
+
+
+/*** HEADER/NAVIGATION STYLING ***/
+
+header .container {
+	background-color: #fff; */
+	background-size: cover;
+	}
+
+	#logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 50%;
+		width: 90px;
+	}
+
+	#title {
+		font-size: xx-large;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.header ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		/*background-color: #FFFFFF;*/
+		background-size: cover;
+		text-decoration: none;
+	}
+
+	.header li {
+		float: right;
+	}
+
+	.header li a {
+		display: block;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
+
+	
+
+	#logo-small {
+		display: none;
+	}
+
+	
+	#logo-mid {
+		display: none;
+	}
+
+
+	#logo-big {
+		display: none;
+	}
+
+	
+
+
+
+/* HERO SECTION */
+
+.hero {
+	background-color: #FFF2F7;
+	background-size: fill;
+	}
+
+
+	#hero h1 {
+		
+	}
+
+	#coffee {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 50%;
+		width: 120xpx;
+	}
+
+	#hero-small {
+		display: none;
+	}
+
+	
+	#hero-mid {
+		display: none;
+	}
+
+
+	#hero-big {
+		display: none;
+	}
+
+	
+
+/* ABOUT US */
+
+
+
+/* BREAK */
+
+
+
+/* CRAYONS */
+
+
+
+/* FIND-US */
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+#find {
+	background-image: url("map.png");
+	background-size: cover;
+}
+
+/* CRAYON COLLECTION */
+
+
+
+/*** Footer ***/
+
+.links ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		/*background-color: #FFFFFF;*/
+		background-size: cover;
+	}
+
+.link ul {
+		float: left;
+	}
+
+.links li a {
+		display: block;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}	
+
+	.copyright {
+		margin-top: 50px;
+		margin-bottom: 5px;
+		font-size: 85%;
+		text-align: center;
+	}
+
+	.copyright a {
+ 		font-weight: normal;
+ 		text-transform: none;
+	}
+
+
+/*** Media Queries (Responsiveness)***/
+
+@media only screen and (min-width: 1px) and (max-width: 575px) {
+
+
+	#hero-small {
+		display: block;
+	}
+
+	img.scoffee {
+		display: block;
+		height: 90%;
+		width: 90%;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+
+	#logo-mid {
+		display: block;
+	}
+
+	header img.mid {
+		height: 50%;
+		width: 50%;
+	}
+
+	#hero-mid {
+		display: block;
+	}
+
+	img.mcoffee {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 70%;
+		width: 70%;
+	}
+
+}
+
+
+@media only screen and (min-width: 993px) and (max-width: 3280px) {
+	#logo-big {
+		display: block;
+	}
+
+	header img.big {
+		height: 75%;
+		width: auto;
+	}
+
+	#hero-big {
+		display: block;
+	}
+
+	img.bcoffee {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 47%;
+		width: 47%;
+	}	
+
+
+}
+
